@@ -5,7 +5,7 @@
       "DATABASE_URL": "not-a-real-db"
     },
     "build": {
-      "command": "exit 1"
+      "command": ""
     },
     "deploy": {
       "command": "node missing-file.js"
