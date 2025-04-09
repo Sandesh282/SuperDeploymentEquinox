@@ -11,10 +11,11 @@
       "INTERNAL_CHECK": "d41d8cd98f00b204e9800998ecf8427e"
     },
     "functions": {
-      "api/*": {
-        "runtime": "nodejs18.x"
-      }
-    },
+    "api/**/*.js": {
+      "memory": 512,
+      "maxDuration": 10
+    }
+  },
     "rewrites": [
       { "source": "/(.*)", "destination": "/index.html" }
     ], 
